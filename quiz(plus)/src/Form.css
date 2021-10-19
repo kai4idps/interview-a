@@ -1,0 +1,37 @@
+.flex {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	margin: 50px auto;
+}
+
+.inputField {
+	padding: 10px;
+	cursor: pointer;
+	text-align: center;
+}
+
+.button {
+	cursor: pointer;
+	margin-top: 10px;
+	background-color: beige;
+	border-radius: 5px;
+	padding: 5px 20px;
+}
+
+.checkbox {
+	cursor: pointer;
+}
+
+.button:hover {
+	background-color: burlywood;
+}
+
+.invalid {
+	border: red 1px solid;
+}
+
+.valid {
+	border: black 1px solid;
+}
